@@ -1,0 +1,19 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Arquivos locais
+.DS_Store
+*.log
+
+# Bases externas brutas e resultados intermediários locais
+data/youtube_ibict_original.tsv
+outputs/youtube/
+outputs/telegram/
