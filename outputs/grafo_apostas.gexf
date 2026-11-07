@@ -1,0 +1,1024 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:gexf xmlns:ns0="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <ns0:meta lastmodifieddate="2026-10-31">
+    <ns0:creator>NetworkX 3.7</ns0:creator>
+  </ns0:meta>
+  <ns0:graph defaultedgetype="undirected" mode="static" name="">
+    <ns0:attributes mode="static" class="node">
+      <ns0:attribute id="0" title="tipo" type="string" />
+      <ns0:attribute id="1" title="bipartite" type="long" />
+    </ns0:attributes>
+    <ns0:nodes>
+      <ns0:node id="P001" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P002" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P003" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P004" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P005" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P006" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P007" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P008" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P009" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P010" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P011" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P012" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P013" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P014" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P015" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P016" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P017" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P018" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P019" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P020" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P021" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P022" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P023" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P024" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P025" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P026" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P027" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P028" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P029" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P030" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P031" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P032" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P033" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P034" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P035" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P036" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P037" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P038" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P039" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P040" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P041" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P042" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P043" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P044" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P045" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P046" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P047" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P048" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P049" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P050" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P051" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P052" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P053" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P054" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P055" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P056" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P057" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P058" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P059" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P060" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P061" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P062" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P063" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P064" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P065" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P066" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P067" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P068" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P069" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P070" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P071" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P072" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P073" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P074" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P075" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P076" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P077" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P078" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P079" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P080" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P081" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P082" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P083" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P084" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P085" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P086" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P087" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P088" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P089" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P090" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P091" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P092" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P093" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P094" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P095" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P096" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P097" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P098" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P099" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P100" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P101" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P102" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P103" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P104" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P105" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P106" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P107" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P108" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="P109" label="">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="participante" />
+          <ns0:attvalue for="1" value="0" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="Instagram" label="Instagram">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="canal" />
+          <ns0:attvalue for="1" value="1" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="YouTube" label="YouTube">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="canal" />
+          <ns0:attvalue for="1" value="1" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="Influenciadores" label="Influenciadores">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="canal" />
+          <ns0:attvalue for="1" value="1" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="Amigos/conhecidos" label="Amigos/conhecidos">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="canal" />
+          <ns0:attvalue for="1" value="1" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="TikTok" label="TikTok">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="canal" />
+          <ns0:attvalue for="1" value="1" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="Sites esportivos" label="Sites esportivos">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="canal" />
+          <ns0:attvalue for="1" value="1" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="Facebook" label="Facebook">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="canal" />
+          <ns0:attvalue for="1" value="1" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="Outro" label="Outro">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="canal" />
+          <ns0:attvalue for="1" value="1" />
+        </ns0:attvalues>
+      </ns0:node>
+      <ns0:node id="X/Twitter" label="X/Twitter">
+        <ns0:attvalues>
+          <ns0:attvalue for="0" value="canal" />
+          <ns0:attvalue for="1" value="1" />
+        </ns0:attvalues>
+      </ns0:node>
+    </ns0:nodes>
+    <ns0:edges>
+      <ns0:edge source="P001" target="Instagram" id="0" />
+      <ns0:edge source="P001" target="YouTube" id="1" />
+      <ns0:edge source="P001" target="Influenciadores" id="2" />
+      <ns0:edge source="P002" target="TikTok" id="3" />
+      <ns0:edge source="P002" target="YouTube" id="4" />
+      <ns0:edge source="P003" target="Instagram" id="5" />
+      <ns0:edge source="P003" target="TikTok" id="6" />
+      <ns0:edge source="P003" target="YouTube" id="7" />
+      <ns0:edge source="P003" target="X/Twitter" id="8" />
+      <ns0:edge source="P003" target="Influenciadores" id="9" />
+      <ns0:edge source="P003" target="Amigos/conhecidos" id="10" />
+      <ns0:edge source="P003" target="Outro" id="11" />
+      <ns0:edge source="P004" target="Instagram" id="12" />
+      <ns0:edge source="P004" target="TikTok" id="13" />
+      <ns0:edge source="P004" target="YouTube" id="14" />
+      <ns0:edge source="P004" target="Facebook" id="15" />
+      <ns0:edge source="P004" target="Sites esportivos" id="16" />
+      <ns0:edge source="P004" target="Influenciadores" id="17" />
+      <ns0:edge source="P004" target="Amigos/conhecidos" id="18" />
+      <ns0:edge source="P005" target="Instagram" id="19" />
+      <ns0:edge source="P005" target="TikTok" id="20" />
+      <ns0:edge source="P005" target="YouTube" id="21" />
+      <ns0:edge source="P005" target="X/Twitter" id="22" />
+      <ns0:edge source="P006" target="Instagram" id="23" />
+      <ns0:edge source="P006" target="TikTok" id="24" />
+      <ns0:edge source="P006" target="YouTube" id="25" />
+      <ns0:edge source="P006" target="Influenciadores" id="26" />
+      <ns0:edge source="P006" target="Amigos/conhecidos" id="27" />
+      <ns0:edge source="P007" target="Instagram" id="28" />
+      <ns0:edge source="P008" target="Instagram" id="29" />
+      <ns0:edge source="P008" target="Sites esportivos" id="30" />
+      <ns0:edge source="P008" target="Influenciadores" id="31" />
+      <ns0:edge source="P010" target="Instagram" id="32" />
+      <ns0:edge source="P010" target="TikTok" id="33" />
+      <ns0:edge source="P010" target="YouTube" id="34" />
+      <ns0:edge source="P010" target="X/Twitter" id="35" />
+      <ns0:edge source="P010" target="Influenciadores" id="36" />
+      <ns0:edge source="P011" target="Instagram" id="37" />
+      <ns0:edge source="P011" target="Sites esportivos" id="38" />
+      <ns0:edge source="P012" target="Instagram" id="39" />
+      <ns0:edge source="P013" target="Instagram" id="40" />
+      <ns0:edge source="P013" target="YouTube" id="41" />
+      <ns0:edge source="P013" target="Amigos/conhecidos" id="42" />
+      <ns0:edge source="P014" target="Instagram" id="43" />
+      <ns0:edge source="P014" target="TikTok" id="44" />
+      <ns0:edge source="P014" target="YouTube" id="45" />
+      <ns0:edge source="P014" target="Facebook" id="46" />
+      <ns0:edge source="P014" target="Sites esportivos" id="47" />
+      <ns0:edge source="P014" target="Influenciadores" id="48" />
+      <ns0:edge source="P014" target="Amigos/conhecidos" id="49" />
+      <ns0:edge source="P015" target="Instagram" id="50" />
+      <ns0:edge source="P015" target="YouTube" id="51" />
+      <ns0:edge source="P016" target="Instagram" id="52" />
+      <ns0:edge source="P016" target="YouTube" id="53" />
+      <ns0:edge source="P016" target="Amigos/conhecidos" id="54" />
+      <ns0:edge source="P018" target="Instagram" id="55" />
+      <ns0:edge source="P018" target="YouTube" id="56" />
+      <ns0:edge source="P018" target="X/Twitter" id="57" />
+      <ns0:edge source="P018" target="Influenciadores" id="58" />
+      <ns0:edge source="P018" target="Amigos/conhecidos" id="59" />
+      <ns0:edge source="P019" target="Instagram" id="60" />
+      <ns0:edge source="P019" target="TikTok" id="61" />
+      <ns0:edge source="P019" target="YouTube" id="62" />
+      <ns0:edge source="P019" target="Influenciadores" id="63" />
+      <ns0:edge source="P019" target="Amigos/conhecidos" id="64" />
+      <ns0:edge source="P020" target="YouTube" id="65" />
+      <ns0:edge source="P021" target="Instagram" id="66" />
+      <ns0:edge source="P021" target="YouTube" id="67" />
+      <ns0:edge source="P021" target="Sites esportivos" id="68" />
+      <ns0:edge source="P021" target="Influenciadores" id="69" />
+      <ns0:edge source="P021" target="Amigos/conhecidos" id="70" />
+      <ns0:edge source="P022" target="Instagram" id="71" />
+      <ns0:edge source="P022" target="TikTok" id="72" />
+      <ns0:edge source="P022" target="YouTube" id="73" />
+      <ns0:edge source="P022" target="Sites esportivos" id="74" />
+      <ns0:edge source="P022" target="Amigos/conhecidos" id="75" />
+      <ns0:edge source="P023" target="Instagram" id="76" />
+      <ns0:edge source="P023" target="TikTok" id="77" />
+      <ns0:edge source="P023" target="YouTube" id="78" />
+      <ns0:edge source="P023" target="Influenciadores" id="79" />
+      <ns0:edge source="P023" target="Amigos/conhecidos" id="80" />
+      <ns0:edge source="P025" target="Instagram" id="81" />
+      <ns0:edge source="P025" target="TikTok" id="82" />
+      <ns0:edge source="P025" target="YouTube" id="83" />
+      <ns0:edge source="P025" target="Amigos/conhecidos" id="84" />
+      <ns0:edge source="P026" target="Instagram" id="85" />
+      <ns0:edge source="P026" target="Influenciadores" id="86" />
+      <ns0:edge source="P026" target="Amigos/conhecidos" id="87" />
+      <ns0:edge source="P027" target="Instagram" id="88" />
+      <ns0:edge source="P028" target="Instagram" id="89" />
+      <ns0:edge source="P028" target="TikTok" id="90" />
+      <ns0:edge source="P028" target="YouTube" id="91" />
+      <ns0:edge source="P028" target="X/Twitter" id="92" />
+      <ns0:edge source="P028" target="Facebook" id="93" />
+      <ns0:edge source="P028" target="Sites esportivos" id="94" />
+      <ns0:edge source="P028" target="Influenciadores" id="95" />
+      <ns0:edge source="P028" target="Amigos/conhecidos" id="96" />
+      <ns0:edge source="P028" target="Outro" id="97" />
+      <ns0:edge source="P029" target="Sites esportivos" id="98" />
+      <ns0:edge source="P029" target="Amigos/conhecidos" id="99" />
+      <ns0:edge source="P030" target="Instagram" id="100" />
+      <ns0:edge source="P030" target="X/Twitter" id="101" />
+      <ns0:edge source="P030" target="Sites esportivos" id="102" />
+      <ns0:edge source="P030" target="Influenciadores" id="103" />
+      <ns0:edge source="P031" target="Influenciadores" id="104" />
+      <ns0:edge source="P031" target="Amigos/conhecidos" id="105" />
+      <ns0:edge source="P032" target="Outro" id="106" />
+      <ns0:edge source="P033" target="Instagram" id="107" />
+      <ns0:edge source="P033" target="TikTok" id="108" />
+      <ns0:edge source="P033" target="YouTube" id="109" />
+      <ns0:edge source="P033" target="Sites esportivos" id="110" />
+      <ns0:edge source="P033" target="Influenciadores" id="111" />
+      <ns0:edge source="P034" target="Instagram" id="112" />
+      <ns0:edge source="P034" target="Influenciadores" id="113" />
+      <ns0:edge source="P035" target="Instagram" id="114" />
+      <ns0:edge source="P035" target="TikTok" id="115" />
+      <ns0:edge source="P035" target="YouTube" id="116" />
+      <ns0:edge source="P035" target="Influenciadores" id="117" />
+      <ns0:edge source="P036" target="YouTube" id="118" />
+      <ns0:edge source="P037" target="Instagram" id="119" />
+      <ns0:edge source="P037" target="Outro" id="120" />
+      <ns0:edge source="P038" target="YouTube" id="121" />
+      <ns0:edge source="P038" target="Amigos/conhecidos" id="122" />
+      <ns0:edge source="P039" target="Instagram" id="123" />
+      <ns0:edge source="P039" target="Influenciadores" id="124" />
+      <ns0:edge source="P039" target="Outro" id="125" />
+      <ns0:edge source="P040" target="Instagram" id="126" />
+      <ns0:edge source="P040" target="TikTok" id="127" />
+      <ns0:edge source="P040" target="Facebook" id="128" />
+      <ns0:edge source="P041" target="Instagram" id="129" />
+      <ns0:edge source="P042" target="Instagram" id="130" />
+      <ns0:edge source="P043" target="Instagram" id="131" />
+      <ns0:edge source="P043" target="YouTube" id="132" />
+      <ns0:edge source="P043" target="Sites esportivos" id="133" />
+      <ns0:edge source="P043" target="Amigos/conhecidos" id="134" />
+      <ns0:edge source="P044" target="Instagram" id="135" />
+      <ns0:edge source="P044" target="TikTok" id="136" />
+      <ns0:edge source="P044" target="Influenciadores" id="137" />
+      <ns0:edge source="P044" target="Amigos/conhecidos" id="138" />
+      <ns0:edge source="P044" target="Outro" id="139" />
+      <ns0:edge source="P045" target="Sites esportivos" id="140" />
+      <ns0:edge source="P045" target="Influenciadores" id="141" />
+      <ns0:edge source="P046" target="Instagram" id="142" />
+      <ns0:edge source="P046" target="TikTok" id="143" />
+      <ns0:edge source="P046" target="YouTube" id="144" />
+      <ns0:edge source="P046" target="Sites esportivos" id="145" />
+      <ns0:edge source="P046" target="Influenciadores" id="146" />
+      <ns0:edge source="P046" target="Amigos/conhecidos" id="147" />
+      <ns0:edge source="P047" target="Instagram" id="148" />
+      <ns0:edge source="P047" target="YouTube" id="149" />
+      <ns0:edge source="P047" target="Sites esportivos" id="150" />
+      <ns0:edge source="P047" target="Influenciadores" id="151" />
+      <ns0:edge source="P048" target="Amigos/conhecidos" id="152" />
+      <ns0:edge source="P049" target="Instagram" id="153" />
+      <ns0:edge source="P049" target="TikTok" id="154" />
+      <ns0:edge source="P049" target="Influenciadores" id="155" />
+      <ns0:edge source="P050" target="Instagram" id="156" />
+      <ns0:edge source="P050" target="TikTok" id="157" />
+      <ns0:edge source="P050" target="YouTube" id="158" />
+      <ns0:edge source="P050" target="Sites esportivos" id="159" />
+      <ns0:edge source="P050" target="Influenciadores" id="160" />
+      <ns0:edge source="P050" target="Amigos/conhecidos" id="161" />
+      <ns0:edge source="P051" target="Instagram" id="162" />
+      <ns0:edge source="P051" target="TikTok" id="163" />
+      <ns0:edge source="P051" target="YouTube" id="164" />
+      <ns0:edge source="P051" target="X/Twitter" id="165" />
+      <ns0:edge source="P051" target="Influenciadores" id="166" />
+      <ns0:edge source="P051" target="Amigos/conhecidos" id="167" />
+      <ns0:edge source="P052" target="Instagram" id="168" />
+      <ns0:edge source="P052" target="YouTube" id="169" />
+      <ns0:edge source="P052" target="Facebook" id="170" />
+      <ns0:edge source="P053" target="Instagram" id="171" />
+      <ns0:edge source="P053" target="Sites esportivos" id="172" />
+      <ns0:edge source="P053" target="Influenciadores" id="173" />
+      <ns0:edge source="P054" target="TikTok" id="174" />
+      <ns0:edge source="P056" target="Instagram" id="175" />
+      <ns0:edge source="P056" target="TikTok" id="176" />
+      <ns0:edge source="P056" target="YouTube" id="177" />
+      <ns0:edge source="P056" target="Facebook" id="178" />
+      <ns0:edge source="P057" target="Instagram" id="179" />
+      <ns0:edge source="P057" target="Sites esportivos" id="180" />
+      <ns0:edge source="P057" target="Influenciadores" id="181" />
+      <ns0:edge source="P057" target="Amigos/conhecidos" id="182" />
+      <ns0:edge source="P058" target="Outro" id="183" />
+      <ns0:edge source="P059" target="TikTok" id="184" />
+      <ns0:edge source="P059" target="YouTube" id="185" />
+      <ns0:edge source="P061" target="Instagram" id="186" />
+      <ns0:edge source="P061" target="TikTok" id="187" />
+      <ns0:edge source="P061" target="YouTube" id="188" />
+      <ns0:edge source="P062" target="Instagram" id="189" />
+      <ns0:edge source="P062" target="TikTok" id="190" />
+      <ns0:edge source="P062" target="Facebook" id="191" />
+      <ns0:edge source="P062" target="Influenciadores" id="192" />
+      <ns0:edge source="P063" target="Instagram" id="193" />
+      <ns0:edge source="P067" target="Influenciadores" id="194" />
+      <ns0:edge source="P068" target="Instagram" id="195" />
+      <ns0:edge source="P069" target="Instagram" id="196" />
+      <ns0:edge source="P069" target="YouTube" id="197" />
+      <ns0:edge source="P069" target="Facebook" id="198" />
+      <ns0:edge source="P069" target="Amigos/conhecidos" id="199" />
+      <ns0:edge source="P071" target="Instagram" id="200" />
+      <ns0:edge source="P072" target="Instagram" id="201" />
+      <ns0:edge source="P072" target="YouTube" id="202" />
+      <ns0:edge source="P073" target="Instagram" id="203" />
+      <ns0:edge source="P073" target="YouTube" id="204" />
+      <ns0:edge source="P073" target="Outro" id="205" />
+      <ns0:edge source="P074" target="Instagram" id="206" />
+      <ns0:edge source="P074" target="TikTok" id="207" />
+      <ns0:edge source="P074" target="Influenciadores" id="208" />
+      <ns0:edge source="P074" target="Outro" id="209" />
+      <ns0:edge source="P075" target="Instagram" id="210" />
+      <ns0:edge source="P075" target="TikTok" id="211" />
+      <ns0:edge source="P075" target="YouTube" id="212" />
+      <ns0:edge source="P075" target="Sites esportivos" id="213" />
+      <ns0:edge source="P075" target="Amigos/conhecidos" id="214" />
+      <ns0:edge source="P076" target="Instagram" id="215" />
+      <ns0:edge source="P077" target="Instagram" id="216" />
+      <ns0:edge source="P077" target="Amigos/conhecidos" id="217" />
+      <ns0:edge source="P078" target="Instagram" id="218" />
+      <ns0:edge source="P078" target="Facebook" id="219" />
+      <ns0:edge source="P078" target="Influenciadores" id="220" />
+      <ns0:edge source="P079" target="Instagram" id="221" />
+      <ns0:edge source="P079" target="TikTok" id="222" />
+      <ns0:edge source="P079" target="Sites esportivos" id="223" />
+      <ns0:edge source="P079" target="Influenciadores" id="224" />
+      <ns0:edge source="P079" target="Amigos/conhecidos" id="225" />
+      <ns0:edge source="P081" target="Instagram" id="226" />
+      <ns0:edge source="P081" target="YouTube" id="227" />
+      <ns0:edge source="P081" target="X/Twitter" id="228" />
+      <ns0:edge source="P081" target="Influenciadores" id="229" />
+      <ns0:edge source="P082" target="Instagram" id="230" />
+      <ns0:edge source="P082" target="YouTube" id="231" />
+      <ns0:edge source="P082" target="Facebook" id="232" />
+      <ns0:edge source="P082" target="Sites esportivos" id="233" />
+      <ns0:edge source="P082" target="Amigos/conhecidos" id="234" />
+      <ns0:edge source="P083" target="Instagram" id="235" />
+      <ns0:edge source="P083" target="Outro" id="236" />
+      <ns0:edge source="P084" target="Instagram" id="237" />
+      <ns0:edge source="P085" target="YouTube" id="238" />
+      <ns0:edge source="P086" target="Instagram" id="239" />
+      <ns0:edge source="P086" target="YouTube" id="240" />
+      <ns0:edge source="P086" target="Facebook" id="241" />
+      <ns0:edge source="P088" target="Instagram" id="242" />
+      <ns0:edge source="P088" target="TikTok" id="243" />
+      <ns0:edge source="P088" target="YouTube" id="244" />
+      <ns0:edge source="P088" target="Facebook" id="245" />
+      <ns0:edge source="P088" target="Sites esportivos" id="246" />
+      <ns0:edge source="P088" target="Influenciadores" id="247" />
+      <ns0:edge source="P089" target="TikTok" id="248" />
+      <ns0:edge source="P091" target="Instagram" id="249" />
+      <ns0:edge source="P091" target="YouTube" id="250" />
+      <ns0:edge source="P091" target="Sites esportivos" id="251" />
+      <ns0:edge source="P091" target="Influenciadores" id="252" />
+      <ns0:edge source="P092" target="Instagram" id="253" />
+      <ns0:edge source="P092" target="YouTube" id="254" />
+      <ns0:edge source="P092" target="X/Twitter" id="255" />
+      <ns0:edge source="P092" target="Facebook" id="256" />
+      <ns0:edge source="P092" target="Sites esportivos" id="257" />
+      <ns0:edge source="P092" target="Influenciadores" id="258" />
+      <ns0:edge source="P092" target="Amigos/conhecidos" id="259" />
+      <ns0:edge source="P093" target="Instagram" id="260" />
+      <ns0:edge source="P093" target="YouTube" id="261" />
+      <ns0:edge source="P093" target="X/Twitter" id="262" />
+      <ns0:edge source="P093" target="Outro" id="263" />
+      <ns0:edge source="P094" target="Instagram" id="264" />
+      <ns0:edge source="P095" target="Instagram" id="265" />
+      <ns0:edge source="P095" target="YouTube" id="266" />
+      <ns0:edge source="P095" target="X/Twitter" id="267" />
+      <ns0:edge source="P095" target="Facebook" id="268" />
+      <ns0:edge source="P095" target="Sites esportivos" id="269" />
+      <ns0:edge source="P095" target="Influenciadores" id="270" />
+      <ns0:edge source="P095" target="Amigos/conhecidos" id="271" />
+      <ns0:edge source="P095" target="Outro" id="272" />
+      <ns0:edge source="P096" target="Instagram" id="273" />
+      <ns0:edge source="P098" target="Instagram" id="274" />
+      <ns0:edge source="P098" target="YouTube" id="275" />
+      <ns0:edge source="P100" target="Sites esportivos" id="276" />
+      <ns0:edge source="P100" target="Outro" id="277" />
+      <ns0:edge source="P101" target="Instagram" id="278" />
+      <ns0:edge source="P101" target="Influenciadores" id="279" />
+      <ns0:edge source="P102" target="Instagram" id="280" />
+      <ns0:edge source="P102" target="TikTok" id="281" />
+      <ns0:edge source="P102" target="Facebook" id="282" />
+      <ns0:edge source="P103" target="Instagram" id="283" />
+      <ns0:edge source="P103" target="Sites esportivos" id="284" />
+      <ns0:edge source="P103" target="Influenciadores" id="285" />
+      <ns0:edge source="P103" target="Amigos/conhecidos" id="286" />
+      <ns0:edge source="P104" target="Instagram" id="287" />
+      <ns0:edge source="P105" target="Instagram" id="288" />
+      <ns0:edge source="P107" target="Instagram" id="289" />
+      <ns0:edge source="P108" target="Instagram" id="290" />
+      <ns0:edge source="P108" target="Influenciadores" id="291" />
+      <ns0:edge source="P108" target="Amigos/conhecidos" id="292" />
+      <ns0:edge source="P109" target="Instagram" id="293" />
+      <ns0:edge source="P109" target="TikTok" id="294" />
+      <ns0:edge source="P109" target="YouTube" id="295" />
+      <ns0:edge source="P109" target="X/Twitter" id="296" />
+      <ns0:edge source="P109" target="Facebook" id="297" />
+      <ns0:edge source="P109" target="Sites esportivos" id="298" />
+      <ns0:edge source="P109" target="Influenciadores" id="299" />
+    </ns0:edges>
+  </ns0:graph>
+</ns0:gexf>
