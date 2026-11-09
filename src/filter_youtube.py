@@ -73,8 +73,40 @@ def main() -> None:
     if not args.arquivo.exists():
         raise FileNotFoundError(f"Arquivo não encontrado: {args.arquivo}")
 
-    # O arquivo fornecido é uma exportação tabulada. dtype=str preserva IDs e links.
-    df = pd.read_csv(args.arquivo, sep="\t", dtype=str, keep_default_na=False, low_memory=False)
+    # Algumas exportações do IBICT incluem uma linha de metadados antes do cabeçalho.
+    # Localizamos o cabeçalho real pelo nome das colunas, sem presumir quantas linhas
+    # de metadados existem (ou que sempre exista uma linha extra).
+    colunas_esperadas = {
+        normalizar("Filtro da busca"),
+        normalizar("Título"),
+        normalizar("Descrição"),
+        normalizar("Descrição Pai"),
+    }
+    linha_cabecalho = None
+    with args.arquivo.open("r", encoding="utf-8-sig", errors="replace") as arquivo:
+        for indice, linha in enumerate(arquivo):
+            colunas = {normalizar(c) for c in linha.rstrip("\\r\\n").split("\\t")}
+            if colunas_esperadas.issubset(colunas):
+                linha_cabecalho = indice
+                break
+
+    if linha_cabecalho is None:
+        raise ValueError(
+            "Não foi possível localizar o cabeçalho do TSV. Verifique se o arquivo "
+            "está separado por tabulações e contém as colunas: Filtro da busca, "
+            "Título, Descrição e Descrição Pai."
+        )
+
+    # dtype=str preserva IDs e links; skiprows descarta apenas as linhas anteriores
+    # ao cabeçalho encontrado, inclusive a linha de metadados quando existir.
+    df = pd.read_csv(
+        args.arquivo,
+        sep="\\t",
+        skiprows=linha_cabecalho,
+        dtype=str,
+        keep_default_na=False,
+        low_memory=False,
+    )
     col_filtro = localizar_coluna(df, "Filtro da busca")
     col_titulo = localizar_coluna(df, "Título")
     col_descricao = localizar_coluna(df, "Descrição")
