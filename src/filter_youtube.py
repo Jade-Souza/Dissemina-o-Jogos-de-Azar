@@ -85,7 +85,7 @@ def main() -> None:
     linha_cabecalho = None
     with args.arquivo.open("r", encoding="utf-8-sig", errors="replace") as arquivo:
         for indice, linha in enumerate(arquivo):
-            colunas = {normalizar(c) for c in linha.rstrip("\\r\\n").split("\\t")}
+            colunas = {normalizar(c) for c in linha.rstrip("\r\n").split("\t")}
             if colunas_esperadas.issubset(colunas):
                 linha_cabecalho = indice
                 break
@@ -101,7 +101,7 @@ def main() -> None:
     # ao cabeçalho encontrado, inclusive a linha de metadados quando existir.
     df = pd.read_csv(
         args.arquivo,
-        sep="\\t",
+        sep="\t",
         skiprows=linha_cabecalho,
         dtype=str,
         keep_default_na=False,
