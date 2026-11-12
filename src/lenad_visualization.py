@@ -5,9 +5,7 @@ Entrada padrão:
     data/base_estruturada_LENAD_III.xlsx
 
 Saídas:
-    outputs/lenad_*.png
     outputs/lenad_*.pdf
-    outputs/lenad_*.svg
 
 O módulo utiliza exclusivamente estatísticas agregadas publicadas no Caderno
 Temático do LENAD III e transcritas para a planilha estruturada. Não estima
@@ -56,14 +54,9 @@ def carregar_dados(caminho: Path) -> dict[str, pd.DataFrame]:
 
 
 def salvar_figura(figura: plt.Figure, pasta: Path, nome: str) -> None:
-    """Salva cada gráfico em PNG (300 DPI), PDF e SVG."""
+    """Salva cada gráfico exclusivamente em PDF."""
     pasta.mkdir(parents=True, exist_ok=True)
-    for extensao in ("png", "pdf", "svg"):
-        figura.savefig(
-            pasta / f"{nome}.{extensao}",
-            dpi=300,
-            bbox_inches="tight",
-        )
+    figura.savefig(pasta / f"{nome}.pdf", format="pdf", bbox_inches="tight")
     plt.close(figura)
 
 
@@ -283,7 +276,7 @@ def main() -> None:
     grafico_regioes(dados, args.saida)
 
     print(f"Cinco gráficos gerados em: {args.saida.resolve()}")
-    print("Formatos: PNG (300 DPI), PDF e SVG.")
+    print("Formato: somente PDF.")
 
 
 if __name__ == "__main__":
