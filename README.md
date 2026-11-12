@@ -58,3 +58,42 @@ O arquivo GEXF contém a estrutura e os atributos do grafo. A disposição visua
 ## Reprodutibilidade
 
 Mantenha os arquivos de dados utilizados na análise em `data/` e registre a origem, o período de coleta, os filtros aplicados e as limitações de cada base. Arquivos brutos grandes ou dados que não possam ser redistribuídos não devem ser adicionados ao repositório sem verificar as condições de uso e publicação.
+
+
+## Análise estatística do LENAD III
+
+As consequências e os indicadores relacionados a problemas com apostas do LENAD III são analisados por estatística descritiva e gráficos, sem forçar esses dados para uma estrutura de grafo ou árvore.
+
+- `src/lenad_visualization.py`: gera cinco gráficos estatísticos a partir da planilha estruturada do LENAD III.
+- `data/base_estruturada_LENAD_III.xlsx`: arquivo de entrada esperado pelo script (deve conter as abas `PGSI_Apostadores`, `Itens_PGSI`, `Estratos` e `Bets_vs_nao_Bets`).
+- Os gráficos são salvos em `outputs/` nos formatos PNG (300 DPI), PDF e SVG.
+
+Para executar, coloque a planilha estruturada em `data/base_estruturada_LENAD_III.xlsx` e rode, na raiz do repositório:
+
+```bash
+python src/lenad_visualization.py
+```
+
+Também é possível indicar outros caminhos:
+
+```bash
+python src/lenad_visualization.py --entrada caminho/da/planilha.xlsx --saida outputs
+```
+
+### Gráficos gerados
+
+1. Classificação PGSI entre apostadores no último ano (N=684).
+2. Indicadores individuais do PGSI; o percentual positivo é a soma aritmética das categorias publicadas "às vezes" e "maioria/quase sempre".
+3. Prevalência de risco ou jogo problemático por sexo e faixa etária.
+4. Comparação entre usuários de plataformas Bets e apostadores de outras modalidades.
+5. Prevalência por macrorregião, com intervalos de confiança.
+
+### Cuidados na interpretação do LENAD III
+
+- O PGSI é um instrumento de rastreamento/classificação, não um diagnóstico clínico.
+- Os denominadores variam entre tabelas e devem ser apresentados junto aos resultados.
+- Os itens PGSI podem se sobrepor: não se deve somar seus percentuais para estimar pessoas únicas.
+- A soma das duas frequências positivas nos itens PGSI é um cálculo derivado das categorias publicadas, não uma estimativa independente.
+- As associações observadas não demonstram causalidade.
+- A estimativa regional do Norte possui intervalo de confiança amplo e deve ser interpretada com cautela.
+- A análise utiliza resultados agregados publicados; não permite correlações individuais ou cruzamentos entre variáveis que não estejam disponíveis nos microdados.
