@@ -168,7 +168,7 @@ def grafico_sexo_idade(dados: dict[str, pd.DataFrame], pasta: Path) -> None:
     )
     ax.text(
         0, -0.20,
-        "Base: N=684 apostadores recentes. As comparações entre dimensões são descritivas; IC95% do relatório.",
+        "Base total: N=684 apostadores recentes. O relatório não informa o n específico de cada subgrupo; IC95% publicados.",
         transform=ax.transAxes, fontsize=8,
     )
     fig.tight_layout()
@@ -210,7 +210,7 @@ def grafico_bets(dados: dict[str, pd.DataFrame], pasta: Path) -> None:
     )
     ax.text(
         0, -0.22,
-        "Associação estatística reportada (p<0,05); não implica causalidade. IC95% conforme relatório.",
+        "Base total: N=684 apostadores recentes. n por grupo não discriminado no relatório; associação p<0,05, sem inferência causal. IC95% publicados.",
         transform=ax.transAxes, fontsize=8,
     )
     fig.tight_layout()
@@ -253,7 +253,7 @@ def grafico_regioes(dados: dict[str, pd.DataFrame], pasta: Path) -> None:
     )
     ax.text(
         0, -0.20,
-        "Base: N=684 apostadores recentes. Estimativa do Norte tem IC95% amplo; interpretar com cautela.",
+        "Base total: N=684 apostadores recentes. n por região não discriminado no relatório. IC95% do Norte amplo; interpretar com cautela.",
         transform=ax.transAxes, fontsize=8,
     )
     fig.tight_layout()
