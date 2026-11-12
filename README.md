@@ -66,7 +66,7 @@ As consequências e os indicadores relacionados a problemas com apostas do LENAD
 
 - `src/lenad_visualization.py`: gera cinco gráficos estatísticos a partir da planilha estruturada do LENAD III.
 - `data/base_estruturada_LENAD_III.xlsx`: arquivo de entrada esperado pelo script (deve conter as abas `PGSI_Apostadores`, `Itens_PGSI`, `Estratos` e `Bets_vs_nao_Bets`).
-- Os gráficos são salvos em `outputs/` nos formatos PNG (300 DPI), PDF e SVG.
+- Os gráficos são salvos exclusivamente em PDF na pasta `outputs/`.
 
 Para executar, coloque a planilha estruturada em `data/base_estruturada_LENAD_III.xlsx` e rode, na raiz do repositório:
 
