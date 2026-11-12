@@ -76,10 +76,13 @@ def grafico_classificacao_pgsi(dados: dict[str, pd.DataFrame], pasta: Path) -> N
             df["ic95_superior_pct"] - df["percentual_pct"],
         ],
         fmt="none",
+        ecolor="black",
+        elinewidth=1.2,
         capsize=4,
+        zorder=5,
     )
-    for y, valor in enumerate(df["percentual_pct"]):
-        ax.text(valor + 1.0, y, f"{valor:.1f}%", va="center")
+    for y, (valor, limite_superior) in enumerate(zip(df["percentual_pct"], df["ic95_superior_pct"])):
+        ax.text(limite_superior + 1.0, y, f"{valor:.1f}%", va="center")
     ax.set(
         title="Classificação PGSI entre apostadores no último ano",
         xlabel="Participantes (%)",
@@ -150,10 +153,13 @@ def grafico_sexo_idade(dados: dict[str, pd.DataFrame], pasta: Path) -> None:
             [hi - v for v, hi in zip(valores, superiores)],
         ],
         fmt="none",
+        ecolor="black",
+        elinewidth=1.2,
         capsize=4,
+        zorder=5,
     )
-    for y, valor in enumerate(valores):
-        ax.text(valor + 1.2, y, f"{valor:.1f}%", va="center")
+    for y, (valor, limite_superior) in enumerate(zip(valores, superiores)):
+        ax.text(limite_superior + 1.2, y, f"{valor:.1f}%", va="center")
     ax.set(
         title="Apostadores em risco ou jogo problemático, por sexo e idade",
         xlabel="Prevalência dentro de cada grupo (%)",
@@ -189,10 +195,13 @@ def grafico_bets(dados: dict[str, pd.DataFrame], pasta: Path) -> None:
             [hi - v for v, hi in zip(valores, superiores)],
         ],
         fmt="none",
+        ecolor="black",
+        elinewidth=1.2,
         capsize=4,
+        zorder=5,
     )
-    for y, valor in enumerate(valores):
-        ax.text(valor + 1.2, y, f"{valor:.1f}%", va="center")
+    for y, (valor, limite_superior) in enumerate(zip(valores, superiores)):
+        ax.text(limite_superior + 1.2, y, f"{valor:.1f}%", va="center")
     ax.set(
         title="Risco ou jogo problemático segundo uso de plataformas Bets",
         xlabel="Prevalência dentro de cada grupo (%)",
@@ -229,10 +238,13 @@ def grafico_regioes(dados: dict[str, pd.DataFrame], pasta: Path) -> None:
             [hi - v for v, hi in zip(valores, superiores)],
         ],
         fmt="none",
+        ecolor="black",
+        elinewidth=1.2,
         capsize=4,
+        zorder=5,
     )
-    for y, valor in enumerate(valores):
-        ax.text(valor + 1.2, y, f"{valor:.1f}%", va="center")
+    for y, (valor, limite_superior) in enumerate(zip(valores, superiores)):
+        ax.text(limite_superior + 1.2, y, f"{valor:.1f}%", va="center")
     ax.set(
         title="Risco ou jogo problemático por macrorregião",
         xlabel="Prevalência dentro de cada grupo (%)",
